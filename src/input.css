@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    color: #85EBD9;
+    border-bottom: 1px solid #85EBD9;
+}
+
+.on {
+    display: flex;
+    height: 25%;
+    padding: 0.5rem;
+}
+
+.on img {
+    height: 100%;
+    filter: grayscale(100%);
+}
+
+.on img:hover {
+    filter: grayscale(0);
+}
+
+.img-wrap {
+    height: 240px;
+}

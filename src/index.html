@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Portfolio</title>
+  </head>
+  <body
+    class="bg-gradient-to-br from-primary to-blue-800 font-inter text-accent"
+  >
+    <nav
+      class="flex justify-between items-center px-8 md:px-36 h-16 fixed w-full z-10 bg-primary/20 backdrop-blur-3xl"
+    >
+      <h1 class="font-semibold text-xl">refaiza.</h1>
+      <ul
+        class="flex w-1/4 justify-between max-md:hidden text-sm text-gray-300"
+      >
+        <li>
+          <a
+            href="#about"
+            class="hover:border-b hover:text-accent border-accent"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="#services"
+            class="hover:border-b hover:text-accent border-accent"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a href="#work" class="hover:border-b hover:text-accent border-accent"
+            >Work</a
+          >
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="hover:border-b hover:text-accent border-accent"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- about section -->
+    <section id="about" class="flex flex-col md:flex-row md:justify-between items-center md:px-36 py-28">
+      <div class="w-1/2">
+        <div>
+          <h3
+            class="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-br from-blue-700 via-blue-400 to-cyan-400"
+          >
+            Hello, My Name is Re
+          </h3>
+          <h1
+            class="font-bold text-6xl text-transparent bg-clip-text bg-gradient-to-br from-blue-700 via-blue-400 to-cyan-400"
+          >
+            I'm a Student
+          </h1>
+          <p class="text-secondary text-sm mt-4">
+            I am a third-semester student majoring in Informatics at UPNVY. My
+            passion for creativity and technology has driven me to delve deeper
+            into frontend development. Exploring the fusion of design and
+            technology, I am committed to enhancing my skills
+          </p>
+        </div>
+        <a
+          href=""
+          class="block w-fit text-primary font-medium p-4 bg-gradient-to-br from-blue-800 via-blue-500 to-cyan-400 rounded-xl mt-8 hover:bg-gradient-to-b hover:text-blue-800 transition-all duration-500"
+          >Contact Me</a
+        >
+      </div>
+      <img src="img/hero-img.png" alt="re" class="w-2/6 h-auto object-cover" />
+    </section>
+
+    <!-- services -->
+    <section id="services" class="bg-blue-800/50 flex-col justify-center h-screen px-52 pt-28">
+      <div>
+        <h1 class="text-center font-bold text-4xl">Services</h1>
+        <p class="text-center text-secondary">
+          Tailored design and frontend development solutions.
+        </p>
+      </div>
+      <div class="flex justify-between mt-10">
+        <div
+          id="card-wrapper1"
+          class="w-64 h-80 backdrop-blur bg-black/30 hover:bg-black/50 rounded-xl p-6 pt-24 hover:pt-12 transition-all duration-300"
+        >
+          <div class="">
+            <img src="img/icons/webdev.png" alt="" class="w-1/4" />
+            <h3 class="font-medium mt-4">Frontend Web Dev</h3>
+            <p class="text-sm text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam deleniti natus accusamus!
+            </p>
+          </div>
+          <div id="icon1" class="hidden justify-center items-center gap-2 mt-3">
+            <img src="img/icons/html.png" alt="icon" class="" />
+            <img src="img/icons/css.png" alt="icon" />
+            <img src="img/icons/js.png" alt="icon" />
+          </div>
+        </div>
+        <div
+          id="card-wrapper2"
+          class="w-64 h-80 backdrop-blur bg-black/30 hover:bg-black/50 rounded-xl p-6 pt-24 hover:pt-12 transition-all duration-300"
+        >
+          <div class="">
+            <img src="img/icons/ui-design.png" alt="" class="w-1/4" />
+            <h3 class="font-medium mt-4">UI/UX Design</h3>
+            <p class="text-sm text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam deleniti natus accusamus!
+            </p>
+          </div>
+          <div id="icon2" class="hidden justify-center items-center gap-2 mt-3">
+            <img src="img/icons/figma.png" alt="icon" />
+          </div>
+        </div>
+        <div
+          id="card-wrapper3"
+          class="w-64 h-80 backdrop-blur bg-black/30 hover:bg-black/50 rounded-xl p-6 pt-24 hover:pt-12 transition-all duration-300"
+        >
+          <div class="">
+            <img src="img/icons/vector.png" alt="" class="w-1/4" />
+            <h3 class="font-medium mt-4">Graphic Design</h3>
+            <p class="text-sm text-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam deleniti natus accusamus!
+            </p>
+          </div>
+          <div id="icon3" class="hidden justify-center items-center gap-2 mt-3">
+            <img src="img/icons/photoshop.png" alt="icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <section id="work" class="pt-32 px-36">
+      <div>
+        <h1 class="text-center font-bold text-4xl">Work</h1>
+        <p class="text-center text-secondary">
+          Some of my recent design and development projects.
+        </p>
+      </div>
+      <div class="flex flex-wrap justify-center gap-16 mt-10">
+        <div class="w-5/12 border p-4 rounded-2xl">
+          <div class="img-wrap rounded-xl relative overflow-hidden mb-6">
+            <img
+              src="img/porto1.png"
+              alt=""
+              class="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition"
+            />
+          </div>
+          <div class="flex gap-2">
+            <h3
+              class="bg-accent rounded-full px-4 w-fit text-primary mb-2 font-semibold"
+            >
+              Frontend
+            </h3>
+            <a
+              href="#"
+              class="border border-accent hover:bg-accent/30 transition rounded-full px-4 w-fit text-accent mb-2"
+            >
+              Visit 🡥
+            </a>
+          </div>
+          <h1 class="font-medium text-3xl">Wisataku</h1>
+          <p class="text-secondary text-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="w-5/12 border p-4 rounded-2xl">
+          <div class="img-wrap rounded-xl relative overflow-hidden mb-6">
+            <img
+              src="img/porto2.jpeg"
+              alt=""
+              class="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition"
+            />
+          </div>
+          <div class="flex gap-2">
+            <h3
+              class="bg-accent rounded-full px-4 w-fit text-primary mb-2 font-semibold"
+            >
+              Frontend
+            </h3>
+            <a
+              href="#"
+              class="border border-accent hover:bg-accent/30 transition rounded-full px-4 w-fit text-accent mb-2"
+            >
+              Visit 🡥
+            </a>
+          </div>
+          <h1 class="font-medium text-3xl">Moviez</h1>
+          <p class="text-secondary text-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="w-5/12 border p-4 rounded-2xl">
+          <div class="img-wrap rounded-xl relative overflow-hidden mb-6">
+            <img
+              src="img/porto3.png"
+              alt=""
+              class="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition"
+            />
+          </div>
+          <h3
+            class="bg-accent rounded-full px-4 w-fit text-primary mb-2 font-semibold"
+          >
+            UI/UX Design
+          </h3>
+          <h1 class="font-medium text-3xl">Music App</h1>
+          <p class="text-secondary text-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+        <div class="w-5/12 border p-4 rounded-2xl">
+          <div class="img-wrap rounded-xl relative overflow-hidden mb-6">
+            <img
+              src="img/porto4.png"
+              alt=""
+              class="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition"
+            />
+          </div>
+          <h3
+            class="bg-accent rounded-full px-4 w-fit text-primary mb-2 font-semibold"
+          >
+            Graphic Design
+          </h3>
+          <h1 class="font-medium text-3xl">Independence Day Poster</h1>
+          <p class="text-secondary text-sm">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section
+      id="contact"
+      class="bg-blue-800/50 mt-32 px-44 py-16 flex justify-between items-center"
+    >
+      <div>
+        <h1 class="font-bold text-3xl">Have any project in mind?</h1>
+        <p class="text-secondary">
+          Feel free to contact me or just say friendly hello!
+        </p>
+      </div>
+      <a
+        href=""
+        class="block w-fit text-primary font-medium p-4 bg-accent rounded-xl mt-8 hover:bg-accent/70 transition-all duration-300"
+        >Contact Me</a
+      >
+    </section>
+    <footer class="bg-blue-950 px-36">
+      <div class="flex justify-between py-12">
+        <div>
+          <h1 class="font-semibold text-xl">refaiza.</h1>
+        </div>
+        <div class="flex gap-16">
+          <div class="flex flex-col gap-1">
+            <h1 class="font-medium mb-3">Information</h1>
+            <a
+              href="#"
+              class="text-sm text-secondary hover:text-accent transition"
+              >+6285876280458</a
+            >
+            <a
+              href="#"
+              class="text-sm text-secondary hover:text-accent transition"
+              >refaiza26@gmail.com</a
+            >
+            <a
+              href="#"
+              class="text-sm text-secondary hover:text-accent transition"
+              >Kulon Progo, DIY</a
+            >
+          </div>
+          <div class="flex flex-col gap-1">
+            <h1 class="font-medium mb-3">Social Media</h1>
+            <a
+              href="#"
+              class="text-sm text-secondary hover:text-accent transition"
+              >Instagram</a
+            >
+            <a
+              href="#"
+              class="text-sm text-secondary hover:text-accent transition"
+              >Linkedin</a
+            >
+            <a
+              href="#"
+              class="text-sm text-secondary hover:text-accent transition"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-between items-center py-6 border-t border-accent text-sm"
+      >
+        <p>Portfolio by Re Faiza</p>
+        <p>Copyright 2023</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
